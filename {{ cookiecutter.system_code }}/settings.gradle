@@ -1,0 +1,6 @@
+rootProject.name = '{{cookiecutter.system_code}}'
+include 'core'
+include 'springboot-adapter'
+include 'couchdb-adapter'
+include 'kafka-adapter'
+

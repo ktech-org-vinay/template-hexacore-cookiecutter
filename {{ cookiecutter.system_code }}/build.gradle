@@ -1,0 +1,10 @@
+rootProject.description = '{{ cookiecutter.service_short_description }}'
+
+allprojects {
+    group = 'com.ktech.{{cookiecutter.system_code}}'
+    version = '{{ cookiecutter.version }}'
+    apply plugin: 'checkstyle'
+}
+
+apply plugin: KtechSonarQube
+apply plugin: KtechMkDocs
